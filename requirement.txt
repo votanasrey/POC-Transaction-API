@@ -1,0 +1,7 @@
+gqlalchemy==1.4.0
+pyodbc
+fastapi
+python-dotenv == 1.0.0
+uvicorn
+pandas
+scikit-learn

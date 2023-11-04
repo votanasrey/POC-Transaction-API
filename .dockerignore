@@ -1,0 +1,10 @@
+venv
+__pycache__
+*.py[cod]
+*/__pycache__/*
+.env
+logs
+*/logs
+*.pdf
+docker_images
+*./docker_images

@@ -1,0 +1,20 @@
+[2023-11-04 15:58:44,004.004] DEBUG [14160] - Using proactor: IocpProactor
+[2023-11-04 15:58:44,095.095] INFO [14160] - Started server process [22160]
+[2023-11-04 15:58:44,095.095] INFO [14160] - Waiting for application startup.
+[2023-11-04 15:58:44,096.096] INFO [14160] - Application startup complete.
+[2023-11-04 15:58:44,097.097] INFO [14160] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2023-11-04 15:58:58,557.557] INFO [14160] - 127.0.0.1:60224 - "GET / HTTP/1.1" 404
+[2023-11-04 16:01:24,739.739] INFO [14160] - Shutting down
+[2023-11-04 16:01:24,850.850] INFO [14160] - Waiting for application shutdown.
+[2023-11-04 16:01:24,851.851] INFO [14160] - Application shutdown complete.
+[2023-11-04 16:01:24,851.851] INFO [14160] - Finished server process [22160]
+[2023-11-04 16:03:29,821.821] DEBUG [2736] - Using proactor: IocpProactor
+[2023-11-04 16:03:29,848.848] INFO [2736] - Started server process [21096]
+[2023-11-04 16:03:29,848.848] INFO [2736] - Waiting for application startup.
+[2023-11-04 16:03:29,849.849] INFO [2736] - Application startup complete.
+[2023-11-04 16:03:29,851.851] INFO [2736] - Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+[2023-11-04 16:03:44,024.024] INFO [2736] - 127.0.0.1:60323 - "GET / HTTP/1.1" 404
+[2023-11-04 16:05:53,449.449] INFO [2736] - Shutting down
+[2023-11-04 16:05:53,559.559] INFO [2736] - Waiting for application shutdown.
+[2023-11-04 16:05:53,559.559] INFO [2736] - Application shutdown complete.
+[2023-11-04 16:05:53,559.559] INFO [2736] - Finished server process [21096]
