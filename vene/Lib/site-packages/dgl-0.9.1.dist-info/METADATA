@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dgl
+Version: 0.9.1
+Summary: Deep Graph Library
+Home-page: https://github.com/dmlc/dgl
+Maintainer: DGL Team
+Maintainer-email: wmjlyjemaine@gmail.com
+License: APACHE
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: numpy (>=1.14.0)
+Requires-Dist: scipy (>=1.1.0)
+Requires-Dist: networkx (>=2.1)
+Requires-Dist: requests (>=2.19.0)
+Requires-Dist: tqdm
+Requires-Dist: psutil (>=5.8.0)
+
+UNKNOWN
+

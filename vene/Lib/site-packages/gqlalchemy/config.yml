@@ -1,0 +1,22 @@
+indices:    # indices to be created for each table
+  individuals:    # name of the table containing individuals with ind_id
+  - ind_id
+  address:
+  - add_id
+ 
+ 
+name_mappings:    # how we want to name node labels
+  individuals:
+    label: INDIVIDUAL    # nodes made from the individuals table will have the label INDIVIDUAL
+  address:
+    label: ADDRESS
+ 
+ 
+one_to_many_relations:
+  address: []    # currently needed, leave [] if no relations to define
+  individuals:
+  - foreign_key:                # foreign key used for mapping;
+      column_name: add_id         # specifies its column
+      reference_table: address    # name of table from which the foreign key is taken
+      reference_key: add_id       # column name in reference table from which the foreign key is taken
+    label: LIVES_IN               # label applied to relationship created 

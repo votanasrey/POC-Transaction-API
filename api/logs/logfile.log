@@ -18,3 +18,5 @@
 [2023-11-04 16:05:53,559.559] INFO [2736] - Waiting for application shutdown.
 [2023-11-04 16:05:53,559.559] INFO [2736] - Application shutdown complete.
 [2023-11-04 16:05:53,559.559] INFO [2736] - Finished server process [21096]
+[2023-11-04 16:30:44,595.595] WARNING [11284] - You must pass the application as an import string to enable 'reload' or 'workers'.
+[2023-11-05 11:42:15,719.719] WARNING [8176] - You must pass the application as an import string to enable 'reload' or 'workers'.

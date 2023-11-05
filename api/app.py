@@ -12,4 +12,4 @@ app.include_router(router.router)
 if __name__ == "__main__":
     cwd = pathlib.Path(__file__).parent.resolve()
     # add log
-    uvicorn.run(app, host="0.0.0.0", port=8000, reload=True, log_config=f"{cwd}/log.ini")
+    uvicorn.run(app, host="0.0.0.0", port=8080, reload=True, log_config=f"{cwd}/log.ini")
